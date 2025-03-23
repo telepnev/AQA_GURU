@@ -5,7 +5,7 @@ import practicForm.pages.CheckTextBoxPage;
 import practicForm.pages.TextBoxPage;
 import util.GenerateRandomDate;
 
-public class TextBox extends BaseTest {
+public class TextBoxTests extends BaseTest {
 
     private TextBoxPage textBoxPage = new TextBoxPage();
     private CheckTextBoxPage checkTextBoxPage = new CheckTextBoxPage();

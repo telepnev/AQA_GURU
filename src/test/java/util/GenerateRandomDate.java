@@ -17,7 +17,7 @@ public class GenerateRandomDate {
     public String getSubject = faker.options().option("Computer Science", "Commerce", "Accounting", "Economics", "Arts", "Social Studies", "History",
             "Civics");
     public String getHobbies = faker.options().option("Sports", "Reading", "Music");
-    public String getPicture = faker.options().option("Screenshot.png", "Screenshot_8.png");
+    public String getPicture = faker.options().option("Screenshot.png", "Screenshot2.png");
     public String getCurrentAddress = faker.address().fullAddress();
     public String state = faker.options().option("NCR", "Uttar Pradesh", "Haryana", "Rajasthan");
     public String city = selectCity(state);
